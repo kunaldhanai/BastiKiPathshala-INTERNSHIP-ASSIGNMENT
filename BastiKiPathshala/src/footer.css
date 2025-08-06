@@ -6,8 +6,6 @@
    
     gap: 20px;
     margin-top: 30px;
-
-
 }
 
 .footer-item {
@@ -39,4 +37,5 @@
     text-decoration: none;
     font-size: 15px;
     transition: color 0.3s;
+
 }
