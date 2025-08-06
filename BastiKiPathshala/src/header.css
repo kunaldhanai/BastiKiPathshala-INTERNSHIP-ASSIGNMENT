@@ -22,9 +22,6 @@
     transition: 0.3s;
 }    
 
-
-
-
 .navbar {
     display: flex;
     /*gap: 20px;*/
@@ -47,7 +44,7 @@
 }
 
 .navbar a:hover {
-    color: #333;
+    color: dodgerblue;
     text-decoration: underline;
     border-radius: 4px;
 }
@@ -68,3 +65,4 @@
     padding: 120px;
     font-size: 1.5rem;
 }
+
