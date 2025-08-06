@@ -3,18 +3,17 @@ document.addEventListener('DOMContentLoaded', function () {
 `<div class="header-container">
         <div class="social-links">
             <div class="social-box1">
-                <a href="#"><i class="fas fa-envelope"></i>info@bastikipathshala.com
-                    <i class="fas fa-phone-alt"></i><span>+91 812694xxxx</span>
+                <a href="#"><i class="fas fa-envelope" style="color: #fff;"></i>info@bastikipathshala.com</a>
+                <a href="#"><i class="fas fa-phone-alt" style="color: #fff;"></i>+91 812694xxxx</a>
             </div>
             <div class="social-box2">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f" style="color: #fff;"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="color: #fff;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="color: #fff;"></i></a>
             </div>
 
         </div>
-
-
+        
         <nav class="navbar" id="nav1">
             <div class="logo">
                 <a href="#">
@@ -33,4 +32,5 @@ document.addEventListener('DOMContentLoaded', function () {
             <h1>Volunteer With Us</h1> `;
     document.getElementById("header-placeholder").innerHTML = headerContent;
 });
+
     
