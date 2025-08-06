@@ -24,14 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
             <div class="footer-item">
                 <h4>CONTACT US</h4>
-                <a href="#"><i class="fas fa-home me-3">
-                    302, New Delhi, India
-                </i></a>
-                <a href="#"><i class="fas fa-envelope">info@bastikipathshala</i></a>
-                <a href="#"><i class="fas fa-phone-alt">+91 812694xxxx</i></a>
+                <i class="fas fa-home me-3">302, New Delhi, India</i>
+                <i class="fas fa-envelope">info@bastikipathshala</i>
+                <i class="fas fa-phone-alt">+91 812694xxxx</i>
             </div>
         </div>
        
     </footer>` ;
     document.getElementById("footer-placeholder").innerHTML = footerContent;
+
 });
