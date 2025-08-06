@@ -25,6 +25,10 @@
     padding: 10px;
 }
 
+.footer-item a:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
 .copyright-section {
     text-align: center;
     margin-top: 20px;
@@ -32,10 +36,5 @@
     color: gray;
 }
 
-.footer-content a {
-    color:#333;
-    text-decoration: none;
-    font-size: 15px;
-    transition: color 0.3s;
 
-}
+
