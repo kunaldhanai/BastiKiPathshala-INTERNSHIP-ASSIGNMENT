@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basti Ki Pathshala</title>
+    <link rel="stylesheet" href="../src/header.css">
+    <link rel="stylesheet" href="../src/form.css">
+    <link rel="stylesheet" href="../src/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <script src="../src/header.js"></script>
+    <div class="form-container">
+        <form action="https://formspree.io/f/xjvjlqeg" method="POST">
+            <h2>Volunteer Registration</h2>
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="availability">Availability:</label>
+                <input type="text" id="availability" name="availability"
+                    placeholder="e.g., Weekends, Evenings, Specific dates"></input>
+            </div>
+            <div class="form-group">
+                <label for="interests">Areas of Interest:</label>
+                <div class="checkbox-group" id="interests">
+                    <label class="checkbox-item">
+                        <input type="checkbox" name="interests[]" value="event_support">
+                        <span class="checkmark"></span>
+                        Event Support
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" name="interests[]" value="community_outreach">
+                        <span class="checkmark"></span>
+                        Community Outreach
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" name="interests[]" value="administrative">
+                        <span class="checkmark"></span>
+                        Administrative Tasks
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" name="interests[]" value="fundraising">
+                        <span class="checkmark"></span>
+                        Fundraising
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" name="interests[]" value="other">
+                        <span class="checkmark"></span>
+                        Other
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="experience">Relevant Experience:</label>
+                <textarea id="experience" name="experience" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script src="../src/footer.js"></script>
+</body>
+
+</html>
+<!--  <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-item">
+                <h4>BASTI KI PATHSHALA</h4>
+                <p>Empowering children through education in underserved communities.</p>
+                <p>Our mission is to break the barriers of education and empower these children with the knowledge and skills they need to build a brighter future.</p>
+            </div>
+            <div class="footer-item">
+                <h4>USEFUL LINKS</h4>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="articles.html">Articles</a>
+            </div>
+            <div class="footer-item">
+                <h4>CONTACT US</h4>
+                <a href="#"><i class="fas fa-home me-3"> 302, New Delhi, India</i></a>
+                <a href="#"><i class="fas fa-envelope me-3">
